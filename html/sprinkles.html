@@ -1,0 +1,24 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+
+	<title>Sprinkles</title>
+	<meta name="description" content="Sprinkles">
+	<meta name="author" content="Olavi Sau">
+	<link rel="stylesheet" href="../css/styles.css">
+</head>
+
+<body>
+ <div id="canvasDiv"></div>
+    <script src="../js/scripts.js"></script>
+    <script type="text/javascript">
+    	 SprinklesAPI.prepareCanvas(document.getElementById("canvasDiv"),
+    	  Math.max(document.documentElement.clientWidth, window.innerWidth || 0), 
+    	  Math.max(document.documentElement.clientHeight, window.innerHeight || 0)
+    	  );
+    </script>
+	
+</body>
+</html>
